@@ -1,0 +1,115 @@
+
+1. print (hello world) 
+
+2. message = "hello world" 
+   print (message) 
+
+3. message = "hello world" 
+   print (message) 
+   message = "hello people" 
+   print (message.title())               //output will be two ...there are many ways. 
+
+4. you = "hello world" 
+	print (you) 
+
+5. first_name = "ada"
+   last_name = "love"
+   full_name = first_name + last_name 
+   print (full_name)
+
+6. #adding two numbers
+	number1 = input ( "enter first number: ")
+	number2 = input ("enter second number: ") 
+	sum = float(number1) + float(number2)
+	print (sum)
+
+7.#subtracting two numbers 
+	number1 = input ( "enter first number: ")
+	number2 = input ("enter second number: ") 
+	subtraction = float(number1) - float(number2)
+	print (subtraction) 
+
+8. #making lists 
+	human = [ "you", "me", "him", "she", "her"] 
+        print (human) 
+
+9. # numberical position 
+	bicycles = [ "you", "me", "him", "she", "her"] 
+        print (bicycles[0])                             //this will execute you only. 
+        print (bicycles[1]) 
+
+10. numbers = list (range(1,20))
+    print (numbers) 
+
+11. #even numbers 
+	even_numbers = list (range(2,20,2))
+        print (even_numbers) 
+
+12. #this one has to be done in cmd directly in python 
+numbers = [1,2,3,4,5,6,7,8] 
+min(numbers) 
+max(numbers)
+sum(numbers)
+
+13. #for loop 
+magicians = ['alice', 'david', 'carla'] 
+for magician in magicians:
+	break
+print(magician)
+
+14. #more for loop 
+magicians = ['alice', 'david', 'carla'] 
+for magician in magicians:
+	break
+print(magician.title() + ",that was a great trick")
+
+
+15. #for loop...no intended block error 
+magicians = ['alice', 'david', 'carla'] 
+for magician in magicians: 
+	print(magician)
+
+16. #for loop 
+magicians = ['alice', 'david', 'carla'] 
+for magician in magicians: 
+	print(magician.title() +",that was a good show")
+	print ("i cant wait to see your next show" + magician.title())
+
+17. #for loop 
+for value in range (1,5): 
+	print (value) 
+
+18. #for loop with squre
+squares = []
+for value in range (1,11): 
+	square = value**2
+	squares.append(square)
+		
+print(squares) 
+
+
+19. #if else statement 
+cars = ['bmw', 'honda', 'toyota']
+
+for car in cars: 
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())
+
+20. #if else statements 
+age = 16
+if age >= 17: 
+	print ("you're old enough to vote") 
+else:
+	print ("you're not old enough to vote")
+
+21. #if else elif 
+age = 19
+if age <4:
+	price = 0
+elif age <20:
+	price =5
+else: 
+	price =10
+print ("your admission cost is " + str(price))
